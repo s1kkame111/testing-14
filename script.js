@@ -32,7 +32,7 @@ const data = [
         title:'ПОЛІТИЧНІ',
         title2:'ЗМІНИ',
         description:'Після поразки у Франко-прусська війна у Франції відбулися значні зміни. Було повалено монархію і створено Третю республіку. У 1871 році виникла Паризька комуна — спроба створити нову форму влади. Ці події показали нестабільність політичної ситуації в країні.',
-        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Barricade_de_l%27entr%C3%A9e_de_la_Grande-rue_de_la_Chapelle.18_mars_1871._PH4142-166.jpg/1280px-Barricade_de_l%27entr%C3%A9e_de_la_Grande-rue_de_la_Chapelle.18_mars_1871._PH4142-166.jpg'
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Place_du_Ch%C3%A2teau-d%E2%80%99Eau.jpg/1280px-Place_du_Ch%C3%A2teau-d%E2%80%99Eau.jpg'
     },
     {
         place:'Франція, кінець XIX',
