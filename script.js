@@ -1,45 +1,46 @@
 const data = [
     {
-        place:'Switzerland Alps',
-        title:'SAINT',
-        title2:'ANTONIEN',
-        description:'Tucked away in the Switzerland Alps, Saint Antönien offers an idyllic retreat for those seeking tranquility and adventure alike. It\'s a hidden gem for backcountry skiing in winter and boasts lush trails for hiking and mountain biking during the warmer months.',
-        image:'https://assets.codepen.io/3685267/timed-cards-1.jpg'
+        place:'Франція, кінець XIX ст.',
+        title:'КРИЗИ ТА',
+        title2:'РЕФОРМИ',
+        description:'У Третій республіці виникали політичні кризи, серед яких найвідомішою була Справа Дрейфуса. Вона розділила суспільство на прихильників і противників справедливості. Водночас до влади приходили радикали, які проводили реформи, зокрема відокремлення церкви від держави та розвиток освіти.',
+        image:'https://i.redd.it/s2mwciizobqg1.jpeg'
     },
     {
-        place:'Japan Alps',
-        title:'NANGANO',
-        title2:'PREFECTURE',
-        description:'Nagano Prefecture, set within the majestic Japan Alps, is a cultural treasure trove with its historic shrines and temples, particularly the famous Zenkō-ji. The region is also a hotspot for skiing and snowboarding, offering some of the country\'s best powder.',
-        image:'https://assets.codepen.io/3685267/timed-cards-2.jpg'
+        place:'Франція, кінець XIX ст.',
+        title:'ОСНОВНІ',
+        title2:'ТЕМИ',
+        description:'У цьому проєкті розглядається розвиток Франції в період так званої «Прекрасної епохи». Це був час швидкого культурного та наукового прогресу, коли країна стала одним із центрів європейського мистецтва. Також розглядаються політичні події, зокрема Франко-прусська війна, утворення Третьої республіки та політичні кризи. Окрема увага приділяється видатним особистостям, які вплинули на розвиток Франції.',
+        image:'https://pictures.abebooks.com/inventory/31523477302.jpg'
     },
     {
-        place:'Sahara Desert - Morocco',
-        title:'MARRAKECH',
-        title2:'MEROUGA',
-        description:'The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks and desert camps offer an unforgettable immersion into the nomadic way of life.',
-        image:'https://assets.codepen.io/3685267/timed-cards-3.jpg'
+        place:'Париж, кінець XIX ст.',
+        title:'ПРЕКРАСНА',
+        title2:'ЕПОХА',
+        description:'«Belle Époque» — це період розквіту культури, мистецтва та науки у Франції. У цей час активно розвивалася мода, архітектура, живопис і література. Париж став центром європейського культурного життя. Саме тоді з’явилися нові художні напрямки, такі як імпресіонізм і постімпресіонізм. Люди вірили у прогрес і світле майбутнє.',
+        image:'https://cp12.nevsepic.com.ua/88/1350082433-0029899-www.nevsepic.com.ua.jpg'
     },
     {
-        place:'Sierra Nevada - USA',
-        title:'YOSEMITE',
-        title2:'NATIONAL PARAK',
-        description:'Yosemite National Park is a showcase of the American wilderness, revered for its towering granite monoliths, ancient giant sequoias, and thundering waterfalls. The park offers year-round recreational activities, from rock climbing to serene valley walks.',
-        image:'https://assets.codepen.io/3685267/timed-cards-4.jpg'
+        place:'Париж, 1878–1900 рр.',
+        title:'ВИСТАВКИ ТА',
+        title2:'НАУКА',
+        description:'У Франції проводилися Всесвітні виставки, які демонстрували технічні досягнення різних країн. Найвідомішою стала виставка 1889 року, під час якої була побудована Ейфелева вежа. У цей період активно розвивалася наука. Важливі відкриття зробили Луї Пастер у галузі медицини та Марія Склодовська-Кюрі у дослідженні радіоактивності.',
+        image:'https://supportyourart.com/cdn/uploads/2019/12/d0b2d0b5d0b6d0b0-768x557.jpg.webp'
     },
     {
-        place:'Tarifa - Spain',
-        title:'LOS LANCES',
-        title2:'BEACH',
-        description:'Los Lances Beach in Tarifa is a coastal paradise known for its consistent winds, making it a world-renowned spot for kitesurfing and windsurfing. The beach\'s long, sandy shores provide ample space for relaxation and sunbathing, with a vibrant atmosphere of beach bars and cafes.',
-        image:'https://assets.codepen.io/3685267/timed-cards-5.jpg'
+        place:'Франція, 1870–1875 рр.',
+        title:'ПОЛІТИЧНІ',
+        title2:'ЗМІНИ',
+        description:'Після поразки у Франко-прусська війна у Франції відбулися значні зміни. Було повалено монархію і створено Третю республіку. У 1871 році виникла Паризька комуна — спроба створити нову форму влади. Ці події показали нестабільність політичної ситуації в країні.',
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Barricade_de_l%27entr%C3%A9e_de_la_Grande-rue_de_la_Chapelle.18_mars_1871._PH4142-166.jpg/1280px-Barricade_de_l%27entr%C3%A9e_de_la_Grande-rue_de_la_Chapelle.18_mars_1871._PH4142-166.jpg'
     },
     {
-        place:'Cappadocia - Turkey',
-        title:'Göreme',
-        title2:'Valley',
-        description:'Göreme Valley in Cappadocia is a historical marvel set against a unique geological backdrop, where centuries of wind and water have sculpted the landscape into whimsical formations. The valley is also famous for its open-air museums, underground cities, and the enchanting experience of hot air ballooning.',
-        image:'https://assets.codepen.io/3685267/timed-cards-6.jpg'
+        place:'Франція, кінець XIX',
+        title:'МИСТЕЦТВО І',
+        title2:'СТИЛЬ',
+        description:'У період «Прекрасної епохи» у Франції активно розвивалися нові напрямки мистецтва, зокрема імпресіонізм і постімпресіонізм. Художники намагалися передати не точні деталі, а свої враження від світу — світло, рух, настрій. У картинах часто зображували природу, міське життя та повсякденні сцени
+Цей період також вплинув на моду та архітектуру. З’являлися нові стилі, будувалися красиві будівлі, а мистецтво ставало більш доступним для людей.',
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg'
     },
 ]
 
