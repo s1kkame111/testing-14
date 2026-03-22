@@ -69,9 +69,10 @@ body {
   top: 240px;
   left: 60px;
 }
-.details .place-box {
-  height: 46px;
-  overflow: hidden;
+.details .place-box .text {
+  padding-top: 16px;
+  font-size: 20px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
 }
 .details .place-box .text {
   padding-top: 16px;
@@ -92,6 +93,7 @@ body {
   font-weight: 600;
   font-size: 72px;
   font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
 }
 .details .title-box-1,
 .details .title-box-2 {
@@ -102,6 +104,7 @@ body {
 .details > .desc {
   margin-top: 16px;
   width: 500px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
 }
 .details > .cta {
   width: 500px;
